@@ -1,0 +1,73 @@
+.bg-login {
+  width: 100%;
+  position: fixed;
+  opacity: 0.4;
+}
+
+.cardLogin {
+  width: 30%;
+  margin: 3rem;
+}
+
+.mainBox {
+  background-color: black;
+
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+
+.cardLogin {
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+
+.logoCblol {
+  width: 30%;
+}
+
+.titleSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.formSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formItens{
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+}
+
+.btn-primary{
+  background-color: #000000;
+  border-color: #fff;
+}
+
+.btn-primary:hover{
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+}
+
+a{
+  color: #afafaf;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #5837eb;
+  text-decoration: underline;
+}
+
+.w-70{
+  width: 70%;
+}

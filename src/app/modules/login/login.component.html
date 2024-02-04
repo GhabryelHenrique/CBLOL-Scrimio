@@ -1,0 +1,51 @@
+<div class="w-100 mainBox">
+  <img
+    class="bg-login"
+    [src]="'../../../assets/fotosCblol/' + bgImage + '.jpg'"
+    alt="Imagem CBlol Fundo"
+  />
+
+  <div class="card cardLogin d-flex justify-content-center justify-content-evenly">
+    <section class="titleSection">
+      <img
+        class="logoCblol"
+        src="../../../assets/cblolLogo.png"
+        alt="Logo Cblol"
+      />
+      <h2>Scrimio</h2>
+    </section>
+
+    <section class="formSection">
+      <form [formGroup]="formLogin" class="formItens">
+        <label for="user">Usuário</label>
+        <input type="text" formControlName="username" class="form-control" />
+
+        <label for="password" class="mt-4">Senha</label>
+        <input
+          type="password"
+          formControlName="password"
+          class="form-control"
+        />
+
+        <div class="d-flex justify-content-between align-items-center mt-4">
+          <button class="btn btn-primary" type="button" (click)="login()">
+            Entrar
+          </button>
+
+          <a href="#">Esqueceu sua senha?</a>
+        </div>
+        <a
+          href="https://www.cblol.com.br/contato"
+          class="mt-4 align-self-center"
+          >Caso precise de ajuda, entre em contato conosco</a
+        >
+      </form>
+    </section>
+
+    <section class="d-flex align-items-center flex-column">
+      <hr class="w-70" />
+
+      <p>Deseja entrar na lista de espera? <a href="">Cadastre-se</a></p>
+    </section>
+  </div>
+</div>
